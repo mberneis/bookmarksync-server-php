@@ -1,0 +1,52 @@
+<!-- #include file = "../inc/asp.inc" -->
+<!-- #include file = "../inc/db.inc" -->
+<? 
+$bid=$HTTP_GET_VARS["b"];
+$uid=$HTTP_GET_VARS["u"];
+if ($bid=="" || $uid=="")
+{
+
+  $conn.$close;
+  $conn=null;
+
+  exit();
+
+} 
+
+$conn$execute["select url from bookmarks where bookid=".$bid];
+if (!$rs$eof)
+{
+  $url=$rs["url"];
+} 
+$rs.$close;
+$conn$execute["select path,access from link where expiration is null and book_id=".$bid." and person_id=".$uid];
+if (!$rs$eof)
+{
+
+  $path=$rs["path"];
+  $access=$rs["access"];
+} 
+
+$rs.$close;
+?>
+<html>
+
+<head>
+<title>BookmarkSync - Bookmark Detail</title>
+<META name="HandheldFriendly" content="true"> 
+</head>
+<body bgcolor=#FFFFFF>
+<center><img src="smalllogo.gif" width="56" height="26"></center>
+<br><b><big>Bookmark Details:</big></b><p>
+Path: <? echo substr($path,strlen($path)-(strlen($path)-1)); ?><br>
+URL: <a href="<? echo $url; ?>"><? echo $url; ?></a><br>
+Created: <? echo $access; ?><br>
+<? 
+print "<hr>[ <a href=add.php>Add URL</a> | <a href=default.php>Home</a> | <a href=default.php?logoff=true>Log off</a> ]";
+$conn.$close;
+$conn=null;
+
+?>
+</body>
+</html>
+

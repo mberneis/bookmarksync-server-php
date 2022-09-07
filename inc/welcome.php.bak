@@ -1,0 +1,10 @@
+<? 
+
+function welcometxt($user,$id)
+{
+	$body = "Dear " . $user . "<br><br>";
+	$body.= "Welcome to SyncIT.com.  Please activate your registration by<br>clicking here:<br><a href="http://syncit.com/common/verify.php?id=".$id . "</a>";
+	$body .= "<br><br><br>Regards,<br><br>The SyncIt Team";
+	return $body;
+} 
+?>

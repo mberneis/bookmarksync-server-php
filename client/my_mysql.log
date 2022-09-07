@@ -1,0 +1,298 @@
+select personid,token,pass from person where email='c@c.com'
+select path,url,o.src as io,c.src as ic from link left join images as o on o.imgid = openimg_id 
+						left join images as c on c.imgid = closeimg_id, bookmarks where bookid=book_id and person_id=8 and expiration is NULL order by path
+select personid,token,pass from person where email='c@c.com'
+select bookid from bookmarks where url='http://www.8028finder.com/lauren/'
+insert into bookmarks (url) Values ('http://www.8028finder.com/lauren/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\- - lauren - -',444)
+select bookid from bookmarks where url='http://www.codeproject.com/cpp/blowfish.asp#xx291677xx'
+insert into bookmarks (url) Values ('http://www.codeproject.com/cpp/blowfish.asp#xx291677xx')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\A C++ Implementation of the Blowfish Encryption-Decryption method',445)
+select bookid from bookmarks where url='http://numlock/syncitlinux/bms/duplicate.php'
+insert into bookmarks (url) Values ('http://numlock/syncitlinux/bms/duplicate.php')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\BookmarkSync Duplicate Links',446)
+select bookid from bookmarks where url='http://numlock/syncitlinux/bms/undelete.php'
+insert into bookmarks (url) Values ('http://numlock/syncitlinux/bms/undelete.php')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\BookmarkSync Undelete Bookmarks',447)
+select bookid from bookmarks where url='http://www.urbanlegend.com/~beng/exchange/mdevfaq.htm'
+insert into bookmarks (url) Values ('http://www.urbanlegend.com/~beng/exchange/mdevfaq.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Microsoft Exchange and MAPI Development Frequently Asked Questions',448)
+select bookid from bookmarks where url='http://www.phpbuilder.com/board/forumdisplay.php?s=&forumid=10'
+insert into bookmarks (url) Values ('http://www.phpbuilder.com/board/forumdisplay.php?s=&forumid=10')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\PHP Builder Community Forums - Coding',449)
+select bookid from bookmarks where url='http://www.php.net/manual/en/function.is-uploaded-file.php'
+insert into bookmarks (url) Values ('http://www.php.net/manual/en/function.is-uploaded-file.php')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\PHP is_uploaded_file - Manual',450)
+select bookid from bookmarks where url='http://numlock/roadtrip/'
+insert into bookmarks (url) Values ('http://numlock/roadtrip/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\roadtrip local',451)
+select bookid from bookmarks where url='http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=388&lngWId=8'
+insert into bookmarks (url) Values ('http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=388&lngWId=8')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Running PHP scripts as cron jobs - PHP',452)
+select bookid from bookmarks where url='http://www.salon.com/tech/feature/2003/03/05/levis/index.html'
+insert into bookmarks (url) Values ('http://www.salon.com/tech/feature/2003/03/05/levis/index.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Salon.com Technology _ Custom jeans for every butt',453)
+select bookid from bookmarks where url='http://www.sitepoint.com/'
+insert into bookmarks (url) Values ('http://www.sitepoint.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\SitePoint.com - Helping Business Grow Online!',454)
+select bookid from bookmarks where url='http://www.slipstick.com/'
+insert into bookmarks (url) Values ('http://www.slipstick.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Slipstick Systems Exchange and Outlook Solutions Center',455)
+select bookid from bookmarks where url='http://www.tailwind.com/cgi-bin/nph-proxy.cgi'
+insert into bookmarks (url) Values ('http://www.tailwind.com/cgi-bin/nph-proxy.cgi')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Start Using CGIProxy',456)
+select bookid from bookmarks where url='telnet://blinkenlights.nl/'
+insert into bookmarks (url) Values ('telnet://blinkenlights.nl/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\starwars from anywhere',457)
+select bookid from bookmarks where url='http://www.personalitypage.com/high-level.html'
+insert into bookmarks (url) Values ('http://www.personalitypage.com/high-level.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\The Sixteen Personality Types - High-Level',458)
+select bookid from bookmarks where url='http://www.trekdata.com/contact.html'
+insert into bookmarks (url) Values ('http://www.trekdata.com/contact.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\TrekData.com - spammer',459)
+select bookid from bookmarks where url='http://plone.org/'
+insert into bookmarks (url) Values ('http://plone.org/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Welcome to plone.org',460)
+select bookid from bookmarks where url='http://www.zope.org/'
+insert into bookmarks (url) Values ('http://www.zope.org/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Welcome to Zope.org',461)
+insert into link (expiration,person_id,access,path) values (NULL,8,now(),'\\emz stuff\\')
+select bookid from bookmarks where url='http://www.brendandawes.com/index.html'
+insert into bookmarks (url) Values ('http://www.brendandawes.com/index.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Brendan Dawes - Interactive Design, Comment and Exploration',462)
+select bookid from bookmarks where url='http://www.canfieldstudios.com/flash4/'
+insert into bookmarks (url) Values ('http://www.canfieldstudios.com/flash4/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\CANFIELD STUDIOS -- Flash 4 Samples                             ',463)
+select bookid from bookmarks where url='http://www.developerdispatch.com/articles/lingolounge/'
+insert into bookmarks (url) Values ('http://www.developerdispatch.com/articles/lingolounge/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Developer Dispatch Articles',464)
+select bookid from bookmarks where url='http://www.director-online.com/'
+insert into bookmarks (url) Values ('http://www.director-online.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Director Online',465)
+select bookid from bookmarks where url='http://www.idest.com/dreamweaver/'
+insert into bookmarks (url) Values ('http://www.idest.com/dreamweaver/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Dreamweaver Bible',466)
+select bookid from bookmarks where url='http://www.andrewwooldridge.com/dreamweaver/'
+insert into bookmarks (url) Values ('http://www.andrewwooldridge.com/dreamweaver/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Dreamweaver Depot',467)
+select bookid from bookmarks where url='http://www.flashcfm.com/index.cfm'
+insert into bookmarks (url) Values ('http://www.flashcfm.com/index.cfm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Flash and ColdFusion Application Development The Flash and ColdFusion resource center wit',468)
+select bookid from bookmarks where url='http://www.flashmagazine.com/flash4.htm'
+insert into bookmarks (url) Values ('http://www.flashmagazine.com/flash4.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Flashmagazine.com',469)
+select bookid from bookmarks where url='http://www.gif.com/'
+insert into bookmarks (url) Values ('http://www.gif.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\gif.com - the first stop in web graphics',470)
+select bookid from bookmarks where url='http://www.macromedia.com/support/flash/ts/documents/flash_websites.htm'
+insert into bookmarks (url) Values ('http://www.macromedia.com/support/flash/ts/documents/flash_websites.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Macromedia - Flash TechNotes Web sites devoted to Macromedia Flash and Flash Developers',471)
+select bookid from bookmarks where url='http://www.macromedia.com/support/flash/technotes.html'
+insert into bookmarks (url) Values ('http://www.macromedia.com/support/flash/technotes.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Macromedia Flash - TechNote Index Overview',472)
+select bookid from bookmarks where url='http://www.prospectmsl.com/'
+insert into bookmarks (url) Values ('http://www.prospectmsl.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Prospect Search.Selection.Talent Management',473)
+select bookid from bookmarks where url='http://www.purifiedproductions.com/tutorials/index.htm'
+insert into bookmarks (url) Values ('http://www.purifiedproductions.com/tutorials/index.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\purified productions  swish tutorials main index',474)
+select bookid from bookmarks where url='http://www.swishworld.com/home.html'
+insert into bookmarks (url) Values ('http://www.swishworld.com/home.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\SwishWorld.com - Links to tons of Swish based sites',475)
+select bookid from bookmarks where url='http://home.att.net/%7EJCB.BEI/Dreamweaver/'
+insert into bookmarks (url) Values ('http://home.att.net/%7EJCB.BEI/Dreamweaver/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\The Dreamweaver Supply Bin',476)
+select bookid from bookmarks where url='http://www.enetserve.com/tutorials/'
+insert into bookmarks (url) Values ('http://www.enetserve.com/tutorials/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\the FLash Academy',477)
+select bookid from bookmarks where url='http://www.tutorialfind.com/tutorials/'
+insert into bookmarks (url) Values ('http://www.tutorialfind.com/tutorials/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\tutorialfind - find tutorials on absolutely anything',478)
+select bookid from bookmarks where url='http://www.uiweb.com/'
+insert into bookmarks (url) Values ('http://www.uiweb.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\UIWEB.COM - Web and interaction design',479)
+select bookid from bookmarks where url='http://www.ultrashock.com/'
+insert into bookmarks (url) Values ('http://www.ultrashock.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Ultrashock.com',480)
+select bookid from bookmarks where url='http://usableweb.com/'
+insert into bookmarks (url) Values ('http://usableweb.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Usable Web',481)
+select bookid from bookmarks where url='http://hotwired.lycos.com/webmonkey/'
+insert into bookmarks (url) Values ('http://hotwired.lycos.com/webmonkey/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Webmonkey The Web Developer\'\'\'\'\'\'\'\'s Resource',482)
+select bookid from bookmarks where url='http://www.theantsnest.com/default.asp'
+insert into bookmarks (url) Values ('http://www.theantsnest.com/default.asp')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\welcome to theantsnest.com',483)
+select bookid from bookmarks where url='http://virtual-fx.net/vfx/tutorial.php'
+insert into bookmarks (url) Values ('http://virtual-fx.net/vfx/tutorial.php')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\Welcome to Virtual-FX.net Flash Tutorials & Resources',484)
+select bookid from bookmarks where url='http://www.phantom42.com/'
+insert into bookmarks (url) Values ('http://www.phantom42.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\www.phantom42.com',485)
+select bookid from bookmarks where url='http://www.londonzoo.co.uk/adoptions/animad.html'
+insert into bookmarks (url) Values ('http://www.londonzoo.co.uk/adoptions/animad.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\emz stuff\\ZSL-LondonZoo',486)
+insert into link (expiration,person_id,access,path) values (NULL,8,now(),'\\folder1\\')
+select bookid from bookmarks where url='http://192.168.0.1/'
+insert into bookmarks (url) Values ('http://192.168.0.1/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\folder1\\steve\'\'s router',487)
+insert into link (expiration,person_id,access,path) values (NULL,8,now(),'\\Info stuff\\')
+select bookid from bookmarks where url='http://www.xs4all.nl/~crisp/lemmings/'
+insert into bookmarks (url) Values ('http://www.xs4all.nl/~crisp/lemmings/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Info stuff\\DHTML Lemmings™ - the story continues... or not',488)
+select bookid from bookmarks where url='http://www.freetranslation.com/'
+insert into bookmarks (url) Values ('http://www.freetranslation.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Info stuff\\FreeTranslation.com - Free Translation from English to Spanish, French, German, Portugue',489)
+select bookid from bookmarks where url='http://www.scan.co.uk/products.htm'
+insert into bookmarks (url) Values ('http://www.scan.co.uk/products.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Info stuff\\Scan Computers Product Index',490)
+select bookid from bookmarks where url='http://www.online-literature.com/'
+insert into bookmarks (url) Values ('http://www.online-literature.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Info stuff\\The Literature Network Online literature for the student, educator, and enthusiast.',491)
+select bookid from bookmarks where url='http://www.webattack.com/'
+insert into bookmarks (url) Values ('http://www.webattack.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Info stuff\\WebAttack.com  download freeware and shareware programs from the world\'\'\'\'\'\'\'\'s largest coll',492)
+insert into link (expiration,person_id,access,path) values (NULL,8,now(),'\\jeeps\\')
+select bookid from bookmarks where url='http://www.ins.state.ny.us/auto0220.htm'
+insert into bookmarks (url) Values ('http://www.ins.state.ny.us/auto0220.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\jeeps\\2002 Consumer Shopping Guide for Automobile Insurance - Telephone Numbers of Auto Insurers',493)
+select bookid from bookmarks where url='http://www.autotrader.com/findacar/vdetail.jtmpl?car_id=115022998&dealer_id=13644812&car_year=1989&m'
+insert into bookmarks (url) Values ('http://www.autotrader.com/findacar/vdetail.jtmpl?car_id=115022998&dealer_id=13644812&car_year=1989&m')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\jeeps\\AutoTrader.com - Used Cars For Sale_ Car Details',494)
+select bookid from bookmarks where url='http://www.nydmv.state.ny.us/ethrum.htm'
+insert into bookmarks (url) Values ('http://www.nydmv.state.ny.us/ethrum.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\jeeps\\DMV Offices by County - E through M',495)
+select bookid from bookmarks where url='http://www.insurancetogo.com/quotes/medium_term_NONUS.html'
+insert into bookmarks (url) Values ('http://www.insurancetogo.com/quotes/medium_term_NONUS.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\jeeps\\InsuranceToGo_ Free Quote _Medium-Term_ Non U.S. Citizen',496)
+select bookid from bookmarks where url='http://www.insure.com/auto/foreignlicense.html'
+insert into bookmarks (url) Values ('http://www.insure.com/auto/foreignlicense.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\jeeps\\Insure.com - auto insurance - Auto insurance options for foreign visitors',497)
+select bookid from bookmarks where url='http://www.mapquest.com/directions/main.adp?go=1&do=nw&2ex=1&src=maps&ct=NA&1y=US&1a=&1p=&1c=&1s=&1z'
+insert into bookmarks (url) Values ('http://www.mapquest.com/directions/main.adp?go=1&do=nw&2ex=1&src=maps&ct=NA&1y=US&1a=&1p=&1c=&1s=&1z')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\jeeps\\MapQuest_ Driving Directions_ North America',498)
+select bookid from bookmarks where url='http://www.nydmv.state.ny.us/license.htm'
+insert into bookmarks (url) Values ('http://www.nydmv.state.ny.us/license.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\jeeps\\NYS DMV - Driver License, Learner Permit and Non-Driver Photo ID Card',499)
+select bookid from bookmarks where url='http://www.speedsound.com/sonycassettereceivers.html'
+insert into bookmarks (url) Values ('http://www.speedsound.com/sonycassettereceivers.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\jeeps\\Sony Car Audio Cassette Receivers - Speed & Sound Electronics Corp.',500)
+insert into link (expiration,person_id,access,path) values (NULL,8,now(),'\\lh\\')
+select bookid from bookmarks where url='http://numlock/syncit-php/avantgo/list.php?uid=8'
+insert into bookmarks (url) Values ('http://numlock/syncit-php/avantgo/list.php?uid=8')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\lh\\BookmarkSync - List URLs',501)
+select bookid from bookmarks where url='http://www.mtv.com/bands/az/hill_lauryn/325452/album.jhtml'
+insert into bookmarks (url) Values ('http://www.mtv.com/bands/az/hill_lauryn/325452/album.jhtml')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\lh\\MTV.com - Lauryn Hill new',502)
+select bookid from bookmarks where url='http://www.mtv.com/bands/az/hill_lauryn/316654/album.jhtml'
+insert into bookmarks (url) Values ('http://www.mtv.com/bands/az/hill_lauryn/316654/album.jhtml')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\lh\\MTV.com - Lauryn Hill',503)
+insert into link (expiration,person_id,access,path) values (NULL,8,now(),'\\Links\\')
+insert into link (expiration,person_id,access,path) values (NULL,8,now(),'\\Programming\\')
+select bookid from bookmarks where url='http://www.4guysfromrolla.com/'
+insert into bookmarks (url) Values ('http://www.4guysfromrolla.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\4GuysFromRolla.com',504)
+select bookid from bookmarks where url='http://www.asp101.com/'
+insert into bookmarks (url) Values ('http://www.asp101.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\ASP 101 - Active Server Pages 101',505)
+select bookid from bookmarks where url='http://aspfree.com/asp/startpage.asp?id=20'
+insert into bookmarks (url) Values ('http://aspfree.com/asp/startpage.asp?id=20')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\ASP Free.com Adding Records to a Database using ADO(ActiveX Data Objects)',506)
+select bookid from bookmarks where url='http://www.aspin.com/'
+insert into bookmarks (url) Values ('http://www.aspin.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\ASP Resource Index - ASP tutorials, scripts, programming, hosting, & code',507)
+select bookid from bookmarks where url='http://www.asp-help.com/'
+insert into bookmarks (url) Values ('http://www.asp-help.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\ASP-Help.com - Active Server Pages Developers Help',508)
+select bookid from bookmarks where url='http://members.tripod.com/gamecode/tut/'
+insert into bookmarks (url) Values ('http://members.tripod.com/gamecode/tut/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Aurora 3D Tutorials',509)
+select bookid from bookmarks where url='http://numlock/syncit-php/avantgo/list.php?uid=8'
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\BookmarkSync - List URLs',501)
+select bookid from bookmarks where url='http://www.brainjar.com/'
+insert into bookmarks (url) Values ('http://www.brainjar.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\BrainJar.com Experiments in Web Programming',510)
+select bookid from bookmarks where url='http://www.cpp-home.com/home.php?action=results&poll_id=18'
+insert into bookmarks (url) Values ('http://www.cpp-home.com/home.php?action=results&poll_id=18')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\C++ Home',511)
+select bookid from bookmarks where url='http://www.cetus-links.org/'
+insert into bookmarks (url) Values ('http://www.cetus-links.org/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Cetus Links18,331 Links on Objects and Components',512)
+select bookid from bookmarks where url='http://www.codehackers.org/articles.htm'
+insert into bookmarks (url) Values ('http://www.codehackers.org/articles.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\CodeHackers.org - The Coders Resource Centre  Articles',513)
+select bookid from bookmarks where url='http://www.dynamicdrive.com/dynamicindex9/imagebar.htm'
+insert into bookmarks (url) Values ('http://www.dynamicdrive.com/dynamicindex9/imagebar.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Dynamic Drive DHTML Scripts- Disable Image Toolbar script',514)
+select bookid from bookmarks where url='http://www.dynamicdrive.com/'
+insert into bookmarks (url) Values ('http://www.dynamicdrive.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Dynamic Drive DHTML(dynamic html) code library!',515)
+select bookid from bookmarks where url='http://www.dimastr.com/redemption/'
+insert into bookmarks (url) Values ('http://www.dimastr.com/redemption/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\http--www.dimastr.com-redemption-',516)
+select bookid from bookmarks where url='http://www.amrein.com/EWORLD/outl022.htm'
+insert into bookmarks (url) Values ('http://www.amrein.com/EWORLD/outl022.htm')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Import Your Windows Address Book to Outlook',517)
+select bookid from bookmarks where url='http://www.irt.org/'
+insert into bookmarks (url) Values ('http://www.irt.org/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\irt.org Home Page',518)
+select bookid from bookmarks where url='http://www.javascriptkit.com/'
+insert into bookmarks (url) Values ('http://www.javascriptkit.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\JavaScript Kit- Comprehensive JavaScript, DHTML, CSS tutorials and over 400+ free JavaS',519)
+select bookid from bookmarks where url='http://www.shepfarm.com/juniper/multicast/'
+insert into bookmarks (url) Values ('http://www.shepfarm.com/juniper/multicast/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Juniper Networks, Inc. - Technology Seminar The IPMulticast Advantage',520)
+select bookid from bookmarks where url='http://www.learnasp.com/learnasp/'
+insert into bookmarks (url) Values ('http://www.learnasp.com/learnasp/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\LearnAsp.com - ASP.net Tutorials by Charles Carroll',521)
+select bookid from bookmarks where url='http://www.line9.com/tek9.asp?pg=freebies'
+insert into bookmarks (url) Values ('http://www.line9.com/tek9.asp?pg=freebies')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\LINE9.com  eBusiness, Simplified.',522)
+select bookid from bookmarks where url='http://www.loudasp.com/howto/ShowHowTo.asp'
+insert into bookmarks (url) Values ('http://www.loudasp.com/howto/ShowHowTo.asp')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\LoudASP',523)
+select bookid from bookmarks where url='http://msdn.microsoft.com/default.asp'
+insert into bookmarks (url) Values ('http://msdn.microsoft.com/default.asp')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\MSDN Home',524)
+select bookid from bookmarks where url='http://www.nopcode.com/'
+insert into bookmarks (url) Values ('http://www.nopcode.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\NOPcode.com',525)
+select bookid from bookmarks where url='http://www.dilascia.com/'
+insert into bookmarks (url) Values ('http://www.dilascia.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Paul DiLascia\'\'s Home Page',526)
+select bookid from bookmarks where url='http://www.php.net/'
+insert into bookmarks (url) Values ('http://www.php.net/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\PHP Hypertext Preprocessor',527)
+select bookid from bookmarks where url='http://inner-smile.com/nocrack.phtml'
+insert into bookmarks (url) Values ('http://inner-smile.com/nocrack.phtml')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Richey\'\'s DELPHI-BOX',528)
+select bookid from bookmarks where url='http://www.samspade.org/t'
+insert into bookmarks (url) Values ('http://www.samspade.org/t')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\SamSpade.org Tools',529)
+select bookid from bookmarks where url='http://webnz.com/robert/cpp_site.html'
+insert into bookmarks (url) Values ('http://webnz.com/robert/cpp_site.html')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Sites of interest to C++ users',530)
+select bookid from bookmarks where url='http://www.smalleranimals.com/'
+insert into bookmarks (url) Values ('http://www.smalleranimals.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Smaller Animals Software',531)
+select bookid from bookmarks where url='http://www.sysinternals.com/index.shtml'
+insert into bookmarks (url) Values ('http://www.sysinternals.com/index.shtml')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Sysinternals Freeware',532)
+select bookid from bookmarks where url='http://www.codeproject.com/'
+insert into bookmarks (url) Values ('http://www.codeproject.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\The Code Project',533)
+select bookid from bookmarks where url='http://www.fltk.org/'
+insert into bookmarks (url) Values ('http://www.fltk.org/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\The Fast Light Toolkit Home Page',534)
+select bookid from bookmarks where url='http://php.resourceindex.com/'
+insert into bookmarks (url) Values ('http://php.resourceindex.com/')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\The PHP Resource Index',535)
+select bookid from bookmarks where url='http://msdn.microsoft.com/downloads/samples/internet/default.asp?frame=true'
+insert into bookmarks (url) Values ('http://msdn.microsoft.com/downloads/samples/internet/default.asp?frame=true')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Web and Internet Samples',536)
+select bookid from bookmarks where url='http://msdn.microsoft.com/library/default.asp?url=/workshop/wab/wabentry.asp'
+insert into bookmarks (url) Values ('http://msdn.microsoft.com/library/default.asp?url=/workshop/wab/wabentry.asp')
+insert into link (expiration,person_id,access,path,book_id) values (NULL,8,now(),'\\Programming\\Windows Address Book',537)
+update person set token = token+1,lastchanged=now() where personid=8
+select token from person where personid=8
+select personid,token,pass from person where email='x@x.com'
